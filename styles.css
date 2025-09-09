@@ -1,0 +1,63 @@
+/* Importação de fonte (opcional, se quiser uma fonte mais "oficial") */
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap'); */
+
+body {
+    /* font-family: 'Roboto', sans-serif; */
+    color: #333;
+}
+
+/* Ajusta a cor azul principal do gov.br (geralmente um azul marinho ou royal) */
+.bg-primary {
+    background-color: #003a70 !important; /* Exemplo de azul marinho */
+}
+
+/* Ajusta a cor dos títulos principais */
+h1 {
+    color: #003a70; 
+    font-weight: 700;
+}
+
+/* Estiliza os subtítulos (como HISTÓRICO) */
+h2 {
+    color: #333;
+    font-size: 1.5rem;
+}
+
+/* Estilo para a caixa lateral de compartilhamento/links */
+.sticky-top {
+    border: 1px solid #e7e7e7;
+    border-radius: 5px;
+}
+
+/* Ajuste o estilo do nav-link para corresponder ao padrão */
+.nav-link.active {
+    font-weight: bold;
+    color: #ca424244 !important;
+    border-bottom: 2px solid #ffc107; /* Linha amarela sutil para o link ativo */
+}
+
+
+
+
+
+/* styles/main.css */
+
+body {
+    /* Define o fundo de toda a página como preto */
+    background-color: #000000; 
+
+    /* Define a cor do texto para branco ou cinza claro 
+       para garantir que ele seja legível contra o fundo preto */
+    color: #ffffff; 
+}
+
+/* Opcional: Ajusta a cor dos links para que se destaquem */
+a {
+    color: #00aaff; /* Um azul brilhante para links */
+}
+
+/* Se você estiver usando o Bootstrap, pode ser necessário forçar a cor 
+   de elementos específicos que têm seu próprio fundo (como o cabeçalho) */
+.bg-primary {
+    background-color: #000000 !important; /* Deixa o topo preto também */
+}
