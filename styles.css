@@ -1,0 +1,161 @@
+/* Importação da fonte Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #eaf6ff;
+    color: #333;
+}
+
+.hero {
+    background: url('imagens/praia-limpa.jpg') no-repeat center center/cover;
+    height: 60vh;
+    color: white;
+    text-align: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlay {
+    background-color: rgba(0, 10, 100, 0.6);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    margin-bottom: 0.5rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.hero p {
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+
+.container {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.secao-texto, .secao-imagem {
+    background-color: #fff;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #0056b3;
+    border-bottom: 3px solid #007bff;
+    padding-bottom: 0.5rem;
+    margin-top: 0;
+}
+
+.imagem-conteudo {
+    width: 100%;
+    max-height: 450px;
+    object-fit: cover; /* Garante que a imagem preencha o espaço sem distorcer */
+    border-radius: 8px;
+    display: block;
+    margin: 1rem 0;
+}
+
+.legenda {
+    text-align: center;
+    font-style: italic;
+    color: #666;
+    margin-top: 0.5rem;
+}
+
+.chamada-acao {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 2.5rem;
+    border-radius: 10px;
+}
+
+.chamada-acao ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 1.5rem;
+}
+
+.chamada-acao li {
+    background-color: #0056b3;
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+}
+
+.chamada-acao li:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    text-align: center;
+    padding: 1.5rem 0;
+    background-color: #003366;
+    color: white;
+    margin-top: 2rem;
+}
+
+
+
+/* Estilos para a seção principal com a imagem de fundo */
+.hero {
+    /* Define o caminho para a sua imagem */
+    background-image: url('png.jpg');
+    
+    /* Configura como a imagem vai se comportar */
+    background-position: center center; /* Centraliza a imagem */
+    background-repeat: no-repeat;       /* Evita que a imagem se repita */
+    background-size: cover;             /* Cobre toda a área do container */
+    
+    height: 70vh; /* Define a altura da seção, 70% da altura da tela */
+    
+    /* Usa Flexbox para centralizar o conteúdo (texto) */
+    display: flex;
+    align-items: center;      /* Alinha o conteúdo verticalmente */
+    justify-content: center;  /* Alinha o conteúdo horizontalmente */
+    text-align: center;
+    color: white; /* Cor do texto dentro do hero */
+}
+
+/* Estilos para a camada de sobreposição (o "filtro" escuro) */
+.overlay {
+    background-color: rgba(0, 0, 0, 0.4); /* Cor preta com 40% de opacidade */
+    width: 100%;
+    height: 100%;
+    
+    /* Centraliza o texto dentro do overlay */
+    display: flex;
+    flex-direction: column; /* Organiza os elementos um abaixo do outro */
+    align-items: center;
+    justify-content: center;
+}
+
+/* Estilos para o texto */
+.hero h1 {
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Adiciona uma sombra ao texto para destaque */
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
