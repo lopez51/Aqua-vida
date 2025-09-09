@@ -1,0 +1,36 @@
+/* styles/main.css */
+
+/* Define a cor azul institucional do gov.br */
+.bg-primary, .btn-primary {
+    background-color: #0a92cb !important;
+    border-color: #0a92cb !important;
+}
+
+/* Deixa o texto do topo (gov.br) branco */
+.text-primary {
+    color: #003a70 !important;
+}
+
+/* Deixa os títulos em destaque na cor primária */
+h1 {
+    color: #003a70;
+    font-weight: 700;
+}
+
+/* Deixa os subtítulos (HISTÓRICO) em cor cinza/escuro com negrito, como no exemplo */
+.text-secondary-emphasis {
+    color: #333 !important;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+/* Estilo para os links de navegação dos menus */
+.nav-link {
+    color: #333 !important;
+    font-weight: 600;
+}
+
+/* Ajuste na imagem para ter a borda sutilmente arredondada */
+.img-fluid {
+    border-radius: 5px;
+}
